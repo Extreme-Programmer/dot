@@ -2,20 +2,6 @@
 ssh-keygen -t ed25519 -C "user@email.com"
 ssh-add ~/.ssh/id_25519
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #create new repo:::>
 echo "# dot" >> README.md
 git init
@@ -24,9 +10,6 @@ git commit -m "first commit"
 git branch -M master
 git remote add origin git@github.com:Extreme-Programmer/dot.git
 git push -u origin master
-
-
-
 
 #push existing:::>
 git remote add origin git@github.com:Extreme-Programmer/dot.git
